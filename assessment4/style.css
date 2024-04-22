@@ -1,0 +1,25 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  filter: drop-shadow( 5px 5px 5px black);
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: rosybrown;
+  margin: auto;
+  text-align: center;
+  /*16px is default font size*/
+   /*18 / 16 = 1.125*/
+  font-size: 1.125rem;
+  padding: 350px;
+  color: beige;
+  text-shadow: 5px 5px 5px black;
+  border: 5px dotted beige;
+  border-radius: 5px 5px 5px 5px;
+  background-image: linear-gradient(to bottom right,rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 30%);
+  filter: drop-shadow(inset 5px 5px 5px rgba(255,255,255,0.2));
+}
